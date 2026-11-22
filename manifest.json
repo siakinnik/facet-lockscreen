@@ -1,0 +1,10 @@
+{
+  "id": "lockscreen",
+  "name": { "en": "Screen lock", "ru": "Блокировка экрана" },
+  "version": "0.1.0-alpha",
+  "api": 3,
+  "exec": "lockscreen",
+  "permissions": ["system.lock", "background"],
+  "provides": ["system.lock@1"],
+  "settings": { "title": { "en": "Screen lock", "ru": "Блокировка экрана" } }
+}
